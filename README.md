@@ -1,6 +1,6 @@
 # Version Control Tutorial
 
-This is a repository to 
+This is a repository to teach the basics of version control
 
 Cloning
 
