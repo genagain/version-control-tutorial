@@ -9,31 +9,36 @@ Before you can do anything, we need to install git, which is a command line util
 
 ## Cloning
 
-Cloning is when one copies the entire contents of a repository on to their computer. 
-
+Cloning is when one copies the entire contents of a repository on to their computer. Once you clone a repository, you can work with it on your computer.
 
 To clone this repository, we run the following command in your terminal:
 ```
-git clone
+git clone https://github.com/genagain/version-control-tutorial.git
 ```
 
-By running this command, we are using the HTTPS protocol. This is form of the HTTP protocol which is run on top of SSL.
+By running this command, we are using the HTTPS protocol. This is form of the HTTP protocol which is run on top of the SSL protocal.
 
 ## Go to directory
 
+In layman's terms, a directory is a folder
+
 ```
-cd 
+cd version-control-tutorial
 ```
 
-Make a branch
+## Make a branch
+
+![Representation of version control](https://jonasatwork.github.io/gitPresentationAssets/git-branch.png)
 
 ```
 git checkout -b YOUR_BRANCH_NAME
 ```
 
-Edit Files
+## Edit Files
 
-Add Files
+Here is when you make the changes and addition necessary to create your project!
+
+## Add Files
 
 ```
 git add .
@@ -54,6 +59,11 @@ git push origin YOUR_BRANCH_NAME
 ```
 
 Create pull request
+
+* Go to this Github repository in your browser
+* Click on this branch
+* Click create pull request
+* Review all of the changes you made
 
 Merge Branch
 
