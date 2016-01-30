@@ -1,6 +1,6 @@
 # Version Control Tutorial
 
-This is a repository to teach the basics of version control. A repository is a central location where all the code is stored for a given project.
+This is a repository to teach the basics of version control. **A repository is a central location where all the code is stored for a given project.**
 
 ## Installation
 Before you can do anything, we need to install git, which is a command line utility for version control. It integrates seamlessly with Github, which is a service for collaboarting on software.
@@ -9,7 +9,7 @@ Before you can do anything, we need to install git, which is a command line util
 
 ## Cloning
 
-Cloning is when one copies the entire contents of a repository on to their computer. Once you clone a repository, you can work with it on your computer.
+**Cloning is when one copies the entire contents of a repository on to their computer.** Once you clone a repository, you can work with it on your computer.
 
 To clone this repository, we run the following command in your terminal:
 ```
@@ -28,7 +28,7 @@ cd version-control-tutorial
 
 ## Make a branch
 
-Branches are a fundamental concept for version control. They allow people to work on the same software without using the same computer seamlessly. The picture below shows a representation of what version control is. **A branch consists of a series of incremental improvements in the development of the software.** In the picture below, every circle is one of these incremental improvements. The master branch is the copy of the software project that is always working as it should. In order to build features for the software project, people create a branch, which branches off from the master branch. This way when the person is incrementally improving the project, their changes will *not* affect the master branch. Once the feature is done and thoroughly tested it can be reincorporated into the project, which will be discussed later in this tutorial.
+Branches are a fundamental concept for version control. They allow people to work on the same software without using the same computer seamlessly. The picture below shows a representation of what version control is. **A branch consists of a series of incremental improvements in the development of the software.** In the picture below, every circle is one of these incremental improvements. The master branch is the copy of the software project that is always working as it should. In order to build features for the software project, people create a branch, which branches off from the master branch. This way when the person is incrementally improving the project, their changes will **not** affect the master branch until the feature is done. Once the feature is done and thoroughly tested it can be reincorporated into the project, which will be discussed later in this tutorial.
 
 ![Representation of version control](https://jonasatwork.github.io/gitPresentationAssets/git-branch.png)
 
@@ -58,7 +58,7 @@ git status
 
 ## Add Files
 
-Basically after you make the changes you need to add them to be **staged**. Files that staged are can be part of an incremental improvement to your software, but are **not** yet. Staging is an concept that allows the user to decide which files will contribute to the incremental improvement. This concept is really useful because there is a chance that not all of the files you've change will contribute to your incremental improvement. 
+Basically after you make the changes you need to add them to be **staged**. Files that staged are can be part of an incremental improvement to your software, but are **not** yet. **Staging is an concept that allows the user to decide which files will contribute to the incremental improvement.** This concept is really useful because there is a chance that not all of the files you've change will contribute to your incremental improvement. 
 
 To add all of you files that have changed, you run the following command:
 ```
@@ -72,7 +72,7 @@ git add NAME_OF_FILE_OR_DIRECTORY
 
 ## Make a commit
 
-A commit is an incremental improvement to your software project. After you've added all of the changed files you want to staging, you can create a commit. Whenever you create a commit, it is expected that you write a message associated with it that clearly explains the changes you have made. This way you and other people can have an idea of the incremental improvements you've made to the software project. In the event that you mess up you can allows revert back to your most recent commit and pick up where you last left off.
+**A commit is an incremental improvement to your software project.** After you've added all of the changed files you want to staging, you can create a commit. Whenever you create a commit, it is expected that you write a message associated with it that clearly explains the changes you have made. This way you and other people can have an idea of the incremental improvements you've made to the software project. In the event that you mess up you can allows revert back to your most recent commit and pick up where you last left off.
 
 To make a commit, you run the following command:
 ```
@@ -85,7 +85,7 @@ As you make more incremental improvements to your software project, make sure th
 
 ## Push Branch
 
-When you are done with your feature, you push all of your changes to your branch. By doing this, all of the commits you've made on the branch can be incorporated in your software project. You are uploading all of the commits you've made on the branch to Github's cloud.
+When you are done with your feature, you push all of your changes to your branch. By doing this, all of the commits you've made on the branch can be incorporated in your software project. **When pushing a branch, you are uploading all of the commits you've made on the branch to Github's cloud.**
 
 To push your branch, you run the following command:
 ```
@@ -94,7 +94,7 @@ git push origin YOUR_BRANCH_NAME
 
 ## Create pull request
 
-Pull requests are where you and other people can review all of the changes you've made on your branch. You and other people can comment on certain lines of code. This way software developers can provide feedback for other people's code. Before your branch can be incorporated into your project you need to create a pull request.
+Pull request is a proposition to incorporate your branch into the software project. The pull request allows you and other people to review all of the changes you've made on your branch. You and other people can comment on certain lines of code. This way software developers can provide feedback for other people's code. Before your branch can be incorporated into your project you need to create a pull request.
 
 To create a pull request, do the follow steps:
 * Go to this Github repository in your browser
@@ -135,3 +135,4 @@ To pull down the master branch, you run the following command:
 git pull origin master
 ```
 
+Now you know the basics of version control! You can use version control to collaborate on software projects or have a second copy of your own software projects.
