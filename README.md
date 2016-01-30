@@ -132,6 +132,6 @@ Then you pull down the changes made to the master branch. This means you need to
 
 To pull down the master branch, you run the following command:
 ```
-git pull master
+git pull origin master
 ```
 
