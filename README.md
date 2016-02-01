@@ -107,7 +107,21 @@ It is important to note that you can continue to commit changes to this branch, 
 
 This is when you can incorporate your branch into your software project!
 
-To merge your pull request, do the following steps:
+It is important to not that there are two ways you can merging can work.
+
+1. You merge the master branch into your branch. You do this to ensure that your changes will work as expected with the most up to date copy version of the working software.
+2. You merge your branch into the master branch.  You do this when you are done with all of the changes for that feature, so it can be integrated into the most up to date copy version of the working software. 
+
+Remeber, merging your branch into the master branch is on the same a mergeing the master branch into your branch.
+
+To merge the master branch intro your branch, do the following steps:
+* Switch to the master branch by running the following command by running ``git checkout master```
+* Update your copy of the the master branch by running ```git pull origin master```
+* Merge your master branch into your branch by running ```git merge master```
+
+You have sucessfully merged the master branch into your branch.
+
+To merge your pull request (and branch) into the master branch, do the following steps:
 * Go to this Github repository in your browser
 * Click on pull requests
 * Click on your pull request
@@ -118,6 +132,8 @@ Now your branch as been incorporated into your software project!
 
 ## Deal with Merge Conflicts
 Sometimes git isn't smart enough to figure what your software project will look like after a new branch has been merged. In this case you need to deal with each conflict individually. Because merge conflicts are hard to create on purpose, they are not included in this tutorial. If you want to learn to about merge conflicts you can read [this tutorial](https://help.github.com/articles/resolving-a-merge-conflict-from-the-command-line/)
+
+It is important to note, that if there are any merge conflicts, your branch cannot be completely merged until these merge conflicts are resolved.
 
 ## Pull down master
 
