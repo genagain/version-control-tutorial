@@ -3,7 +3,7 @@
 This is a repository to teach the basics of version control. **A repository is a central location where all the code is stored for a given project.**
 
 ## Installation
-Before you can do anything, we need to install git, which is a command line utility for version control. It integrates seamlessly with Github, which is a service for collaboarting on software.
+Before you can do anything, we need to install git, which is a command line utility for version control. It integrates seamlessly with Github, which is a service for collaborating on software.
 
 [Here](https://desktop.github.com/) is a link to installing GitHub Desktop for Mac. In addition to, interacting with git through the command line, you can use a GUI as well.
 
