@@ -115,7 +115,7 @@ It is important to not that there are two ways you can merging can work.
 Remeber, merging your branch into the master branch is on the same a mergeing the master branch into your branch.
 
 To merge the master branch intro your branch, do the following steps:
-* Switch to the master branch by running the following command by running ``git checkout master```
+* Switch to the master branch by running the following command by running ```git checkout master```
 * Update your copy of the the master branch by running ```git pull origin master```
 * Merge your master branch into your branch by running ```git merge master```
 
