@@ -37,7 +37,7 @@ To create a new branch, you run the command below:
 git checkout -b YOUR-BRANCH-NAME
 ```
 
-For example of you wanted to create a branch for the little feature you can run ```git checkout -b little-feature```
+For example, if you wanted to create a branch for the little feature you can run ```git checkout -b little-feature```
 
 ## Edit Files
 
