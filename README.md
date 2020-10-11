@@ -16,7 +16,7 @@ To clone this repository, we run the following command in your terminal:
 git clone https://github.com/genagain/version-control-tutorial.git
 ```
 
-By running this command, we are using the HTTPS protocol. This is form of the HTTP protocol which is run on top of the SSL protocal.
+By running this command, we are using the HTTPS protocol. This is form of the HTTP protocol which is run on top of the SSL protocol.
 
 ## Go to directory
 
