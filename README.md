@@ -109,19 +109,19 @@ This is when you can incorporate your branch into your software project!
 
 It is important to not that there are two ways you can merging can work.
 
-1. You merge the master branch into your branch. You do this to ensure that your changes will work as expected with the most up to date copy version of the working software.
-2. You merge your branch into the master branch.  You do this when you are done with all of the changes for that feature, so it can be integrated into the most up to date copy version of the working software. 
+1. You merge the main branch into your branch. You do this to ensure that your changes will work as expected with the most up to date copy version of the working software.
+2. You merge your branch into the main branch.  You do this when you are done with all of the changes for that feature, so it can be integrated into the most up to date copy version of the working software. 
 
-Remeber, merging your branch into the master branch is on the same a mergeing the master branch into your branch.
+Remember, merging your branch into the main branch is on the same a merging the master branch into your branch.
 
-To merge the master branch intro your branch, do the following steps:
-* Switch to the master branch by running the following command by running ```git checkout master```
-* Update your copy of the the master branch by running ```git pull origin master```
-* Merge your master branch into your branch by running ```git merge master```
+To merge the main branch into your branch, do the following steps:
+* Switch to the main branch by running the following command by running ```git checkout main```
+* Update your copy of the the master branch by running ```git pull origin main```
+* Merge your master branch into your branch by running ```git merge main```
 
-You have sucessfully merged the master branch into your branch.
+You have successfully merged the main branch into your branch.
 
-To merge your pull request (and branch) into the master branch, do the following steps:
+To merge your pull request (and branch) into the main branch, do the following steps:
 * Go to this Github repository in your browser
 * Click on pull requests
 * Click on your pull request
@@ -139,16 +139,16 @@ It is important to note, that if there are any merge conflicts, your branch cann
 
 Now that you've incorporated your branch into the software project, you can start developing a new feature. To do this you need to update the copy of the software project on your computer to match what is in Github's cloud. This way your copy of the software project on your computer is the most recent working version of the software project. To do this we need to switch to the master branch of the project. 
 
-To switch to the master branch, you run the following command:
+To switch to the main branch, you run the following command:
 ```
-git checkout master
+git checkout main
 ```
 
-Then you pull down the changes made to the master branch. This means you need to download the updated version of the master branch to your computer. 
+Then you pull down the changes made to the main branch. This means you need to download the updated version of the main branch to your computer. 
 
-To pull down the master branch, you run the following command:
+To pull down the main branch, you run the following command:
 ```
-git pull origin master
+git pull origin main
 ```
 
 Now you know the basics of version control! You can use version control to collaborate on software projects or have a second copy of your own software projects.
